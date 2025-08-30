@@ -24,7 +24,7 @@
       "Ratings": {
         "reviews": [
           {
-            "reviewerId": "r1",
+            "reviewId": "r1",
             "reviewer": "",
             "scores": {
               "Fun factor": null,
@@ -40,7 +40,7 @@
             }
           },
           {
-            "reviewerId": "r105",
+            "reviewId": "r105",
             "reviewer": "Eve",
             "scores": {
               "Fun factor": 9,
@@ -93,7 +93,7 @@
       "Ratings": {
         "reviews": [
           {
-            "reviewerId": "r4",
+            "reviewId": "r4",
             "reviewer": "",
             "scores": {
               "Fun factor": null,
@@ -146,7 +146,7 @@
       "Ratings": {
         "reviews": [
           {
-            "reviewerId": "r5",
+            "reviewId": "r5",
             "reviewer": "",
             "scores": {
               "Fun factor": null,
@@ -199,7 +199,7 @@
       "Ratings": {
         "reviews": [
           {
-            "reviewerId": "r6",
+            "reviewId": "r6",
             "reviewer": "",
             "scores": {
               "Fun factor": null,
@@ -252,7 +252,7 @@
       "Ratings": {
         "reviews": [
           {
-            "reviewerId": "r7",
+            "reviewId": "r7",
             "reviewer": "",
             "scores": {
               "Fun factor": null,
@@ -305,7 +305,7 @@
       "Ratings": {
         "reviews": [
           {
-            "reviewerId": "r8",
+            "reviewId": "r8",
             "reviewer": "",
             "scores": {
               "Fun factor": null,
@@ -358,7 +358,7 @@
       "Ratings": {
         "reviews": [
           {
-            "reviewerId": "r9",
+            "reviewId": "r9",
             "reviewer": "",
             "scores": {
               "Fun factor": null,
@@ -411,7 +411,7 @@
       "Ratings": {
         "reviews": [
           {
-            "reviewerId": "r10",
+            "reviewId": "r10",
             "reviewer": "",
             "scores": {
               "Fun factor": null,
@@ -465,7 +465,7 @@
       "Ratings": {
         "reviews": [
           {
-            "reviewerId": "r11",
+            "reviewId": "r11",
             "reviewer": "",
             "scores": {
               "Fun factor": null,
@@ -518,7 +518,7 @@
       "Ratings": {
         "reviews": [
           {
-            "reviewerId": "r12",
+            "reviewId": "r12",
             "reviewer": "",
             "scores": {
               "Fun factor": null,
