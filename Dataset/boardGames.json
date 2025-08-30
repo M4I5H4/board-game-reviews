@@ -1,0 +1,552 @@
+{
+  "Games": [
+    {
+      "gameId": "f5a1c92b-4d0f-4b6f-9e90-3c34a29d1f9a",
+      "Name": "Catan",
+      "Type": "Strategy",
+      "Num of players": "3-4",
+      "Estimated play time": "60-120 minutes",
+      "Age": "10+",
+      "Publisher": "Kosmos",
+      "Designer": "Klaus Teuber",
+      "Release date": "1995",
+      "Mechanics": [
+        "Dice Rolling",
+        "Trading",
+        "Resource Management",
+        "Modular Board"
+      ],
+      "Categories": [
+        "Economic",
+        "Negotiation",
+        "Civilization"
+      ],
+      "Ratings": {
+        "reviews": [
+          {
+            "reviewerId": "r1",
+            "reviewer": "",
+            "scores": {
+              "Fun factor": null,
+              "Visual design": null,
+              "Component quality": null,
+              "Rulebook": null,
+              "Theme": null,
+              "Replay value": null,
+              "Length": null,
+              "Player interaction": null,
+              "Strategic value": null,
+              "Luck factor": null
+            }
+          },
+          {
+            "reviewerId": "r105",
+            "reviewer": "Eve",
+            "scores": {
+              "Fun factor": 9,
+              "Visual design": 8,
+              "Component quality": 7,
+              "Rulebook": 8,
+              "Theme": 9,
+              "Replay value": 8,
+              "Length": 7,
+              "Player interaction": 9,
+              "Strategic value": 8,
+              "Luck factor": 6
+            }
+          }
+        ],
+        "Averages": {
+          "Fun factor": 9,
+          "Visual design": 8,
+          "Component quality": 7,
+          "Rulebook": 8,
+          "Theme": 9,
+          "Replay value": 8,
+          "Length": 7,
+          "Player interaction": 9,
+          "Strategic value": 8,
+          "Luck factor": 6
+        }
+      }
+    },
+    {
+      "gameId": "3f2f0c72-52f4-4b16-9e47-9b227d80d513",
+      "Name": "Gargoyles Awakening (Disney)",
+      "Type": "Thematic",
+      "Num of players": "2-5",
+      "Estimated play time": "45-90 minutes",
+      "Age": "10+",
+      "Publisher": "Ravensburger",
+      "Designer": "Prospero Hall",
+      "Release date": "2021",
+      "Mechanics": [
+        "Cooperative Play",
+        "Grid Movement",
+        "Scenario-based"
+      ],
+      "Categories": [
+        "Comic/Strip",
+        "Miniatures",
+        "Fighting"
+      ],
+      "Ratings": {
+        "reviews": [
+          {
+            "reviewerId": "r4",
+            "reviewer": "",
+            "scores": {
+              "Fun factor": null,
+              "Visual design": null,
+              "Component quality": null,
+              "Rulebook": null,
+              "Theme": null,
+              "Replay value": null,
+              "Length": null,
+              "Player interaction": null,
+              "Strategic value": null,
+              "Luck factor": null
+            }
+          }
+        ],
+        "Averages": {
+          "Fun factor": null,
+          "Visual design": null,
+          "Component quality": null,
+          "Rulebook": null,
+          "Theme": null,
+          "Replay value": null,
+          "Length": null,
+          "Player interaction": null,
+          "Strategic value": null,
+          "Luck factor": null
+        }
+      }
+    },
+    {
+      "gameId": "8e0db839-49df-48c3-8946-dfa3e424fa50",
+      "Name": "Cosmoctopus",
+      "Type": "Engine-building",
+      "Num of players": "1-4",
+      "Estimated play time": "60 minutes",
+      "Age": "10+",
+      "Publisher": "Lucky Duck Games",
+      "Designer": "Henry Audubon",
+      "Release date": "2023",
+      "Mechanics": [
+        "Engine Building",
+        "Hand Management",
+        "Set Collection"
+      ],
+      "Categories": [
+        "Card Game",
+        "Fantasy",
+        "Mythology"
+      ],
+      "Ratings": {
+        "reviews": [
+          {
+            "reviewerId": "r5",
+            "reviewer": "",
+            "scores": {
+              "Fun factor": null,
+              "Visual design": null,
+              "Component quality": null,
+              "Rulebook": null,
+              "Theme": null,
+              "Replay value": null,
+              "Length": null,
+              "Player interaction": null,
+              "Strategic value": null,
+              "Luck factor": null
+            }
+          }
+        ],
+        "Averages": {
+          "Fun factor": null,
+          "Visual design": null,
+          "Component quality": null,
+          "Rulebook": null,
+          "Theme": null,
+          "Replay value": null,
+          "Length": null,
+          "Player interaction": null,
+          "Strategic value": null,
+          "Luck factor": null
+        }
+      }
+    },
+    {
+      "gameId": "5c5371c2-5b56-4459-927a-95eb0e9a5619",
+      "Name": "Almost Innocent",
+      "Type": "Cooperative Deduction",
+      "Num of players": "2-5",
+      "Estimated play time": "30-45 minutes",
+      "Age": "12+",
+      "Publisher": "Colossal Games",
+      "Designer": "Philippe Attali",
+      "Release date": "2022",
+      "Mechanics": [
+        "Deduction",
+        "Cooperative Play",
+        "Scenario-based"
+      ],
+      "Categories": [
+        "Puzzle",
+        "Deduction",
+        "Fantasy"
+      ],
+      "Ratings": {
+        "reviews": [
+          {
+            "reviewerId": "r6",
+            "reviewer": "",
+            "scores": {
+              "Fun factor": null,
+              "Visual design": null,
+              "Component quality": null,
+              "Rulebook": null,
+              "Theme": null,
+              "Replay value": null,
+              "Length": null,
+              "Player interaction": null,
+              "Strategic value": null,
+              "Luck factor": null
+            }
+          }
+        ],
+        "Averages": {
+          "Fun factor": null,
+          "Visual design": null,
+          "Component quality": null,
+          "Rulebook": null,
+          "Theme": null,
+          "Replay value": null,
+          "Length": null,
+          "Player interaction": null,
+          "Strategic value": null,
+          "Luck factor": null
+        }
+      }
+    },
+    {
+      "gameId": "af52e1a4-76ef-45c1-b65e-7fa5c0f314e9",
+      "Name": "Boblin's Rebellion",
+      "Type": "Card Game",
+      "Num of players": "2-4",
+      "Estimated play time": "20-40 minutes",
+      "Age": "10+",
+      "Publisher": "Self-published",
+      "Designer": "Alexandros Kapidakis",
+      "Release date": "2022",
+      "Mechanics": [
+        "Hand Management",
+        "Take That",
+        "Set Collection"
+      ],
+      "Categories": [
+        "Card Game",
+        "Fantasy",
+        "Humor"
+      ],
+      "Ratings": {
+        "reviews": [
+          {
+            "reviewerId": "r7",
+            "reviewer": "",
+            "scores": {
+              "Fun factor": null,
+              "Visual design": null,
+              "Component quality": null,
+              "Rulebook": null,
+              "Theme": null,
+              "Replay value": null,
+              "Length": null,
+              "Player interaction": null,
+              "Strategic value": null,
+              "Luck factor": null
+            }
+          }
+        ],
+        "Averages": {
+          "Fun factor": null,
+          "Visual design": null,
+          "Component quality": null,
+          "Rulebook": null,
+          "Theme": null,
+          "Replay value": null,
+          "Length": null,
+          "Player interaction": null,
+          "Strategic value": null,
+          "Luck factor": null
+        }
+      }
+    },
+    {
+      "gameId": "3c9b2271-7bde-4d3c-b23e-4dce08e02b77",
+      "Name": "Watch out Beetlejuice",
+      "Type": "Thematic",
+      "Num of players": "2-6",
+      "Estimated play time": "30-60 minutes",
+      "Age": "10+",
+      "Publisher": "Ravensburger",
+      "Designer": "Uncredited (Ravensburger Team)",
+      "Release date": "2023",
+      "Mechanics": [
+        "Dice Rolling",
+        "Variable Player Powers",
+        "Roll and Move"
+      ],
+      "Categories": [
+        "Horror",
+        "Movie/TV",
+        "Fantasy"
+      ],
+      "Ratings": {
+        "reviews": [
+          {
+            "reviewerId": "r8",
+            "reviewer": "",
+            "scores": {
+              "Fun factor": null,
+              "Visual design": null,
+              "Component quality": null,
+              "Rulebook": null,
+              "Theme": null,
+              "Replay value": null,
+              "Length": null,
+              "Player interaction": null,
+              "Strategic value": null,
+              "Luck factor": null
+            }
+          }
+        ],
+        "Averages": {
+          "Fun factor": null,
+          "Visual design": null,
+          "Component quality": null,
+          "Rulebook": null,
+          "Theme": null,
+          "Replay value": null,
+          "Length": null,
+          "Player interaction": null,
+          "Strategic value": null,
+          "Luck factor": null
+        }
+      }
+    },
+    {
+      "gameId": "d9c18af1-6c2a-41d9-b482-3f9279b05c29",
+      "Name": "Ganymede",
+      "Type": "Strategy",
+      "Num of players": "2-4",
+      "Estimated play time": "30 minutes",
+      "Age": "14+",
+      "Publisher": "Sorry We Are French",
+      "Designer": "Hope S. Hwang",
+      "Release date": "2018",
+      "Mechanics": [
+        "Set Collection",
+        "Hand Management",
+        "Card Drafting"
+      ],
+      "Categories": [
+        "Science Fiction",
+        "Space Exploration",
+        "Strategy"
+      ],
+      "Ratings": {
+        "reviews": [
+          {
+            "reviewerId": "r9",
+            "reviewer": "",
+            "scores": {
+              "Fun factor": null,
+              "Visual design": null,
+              "Component quality": null,
+              "Rulebook": null,
+              "Theme": null,
+              "Replay value": null,
+              "Length": null,
+              "Player interaction": null,
+              "Strategic value": null,
+              "Luck factor": null
+            }
+          }
+        ],
+        "Averages": {
+          "Fun factor": null,
+          "Visual design": null,
+          "Component quality": null,
+          "Rulebook": null,
+          "Theme": null,
+          "Replay value": null,
+          "Length": null,
+          "Player interaction": null,
+          "Strategic value": null,
+          "Luck factor": null
+        }
+      }
+    },
+    {
+      "gameId": "b5e20897-f57c-4bb0-a46e-01a29bc1991c",
+      "Name": "Star Trek Cryptic",
+      "Type": "Puzzle/Adventure",
+      "Num of players": "1+",
+      "Estimated play time": "60-120 minutes",
+      "Age": "12+",
+      "Publisher": "Funko Games",
+      "Designer": "Prospero Hall",
+      "Release date": "2023",
+      "Mechanics": [
+        "Storytelling",
+        "Puzzle Solving",
+        "Cooperative Play"
+      ],
+      "Categories": [
+        "Science Fiction",
+        "Adventure",
+        "Movie/TV"
+      ],
+      "Ratings": {
+        "reviews": [
+          {
+            "reviewerId": "r10",
+            "reviewer": "",
+            "scores": {
+              "Fun factor": null,
+              "Visual design": null,
+              "Component quality": null,
+              "Rulebook": null,
+              "Theme": null,
+              "Replay value": null,
+              "Length": null,
+              "Player interaction": null,
+              "Strategic value": null,
+              "Luck factor": null
+            }
+          }
+        ],
+        "Averages": {
+          "Fun factor": null,
+          "Visual design": null,
+          "Component quality": null,
+          "Rulebook": null,
+          "Theme": null,
+          "Replay value": null,
+          "Length": null,
+          "Player interaction": null,
+          "Strategic value": null,
+          "Luck factor": null
+        }
+      }
+    },
+    {
+      "gameId": "f4a36f27-8d1e-4a3c-9302-9db6e189aa22",
+      "Name": "Talisman: The Magical Quest Game (5th Edition)",
+      "Type": "Fantasy Adventure",
+      "Num of players": "2-6",
+      "Estimated play time": "90-120 minutes",
+      "Age": "12+",
+      "Publisher": "Avalon Hill",
+      "Designer": "Robert Harris",
+      "Release date": "2023",
+      "Mechanics": [
+        "Roll and Move",
+        "Adventure",
+        "Dice Rolling",
+        "Player Elimination"
+      ],
+      "Categories": [
+        "Fantasy",
+        "Adventure",
+        "Exploration"
+      ],
+      "Ratings": {
+        "reviews": [
+          {
+            "reviewerId": "r11",
+            "reviewer": "",
+            "scores": {
+              "Fun factor": null,
+              "Visual design": null,
+              "Component quality": null,
+              "Rulebook": null,
+              "Theme": null,
+              "Replay value": null,
+              "Length": null,
+              "Player interaction": null,
+              "Strategic value": null,
+              "Luck factor": null
+            }
+          }
+        ],
+        "Averages": {
+          "Fun factor": null,
+          "Visual design": null,
+          "Component quality": null,
+          "Rulebook": null,
+          "Theme": null,
+          "Replay value": null,
+          "Length": null,
+          "Player interaction": null,
+          "Strategic value": null,
+          "Luck factor": null
+        }
+      }
+    },
+    {
+      "gameId": "c2f87d14-95f9-4a0a-b0b6-3e9277ad6f7e",
+      "Name": "Worms: The Board Game",
+      "Type": "Strategy/Party",
+      "Num of players": "2-6",
+      "Estimated play time": "30-60 minutes",
+      "Age": "10+",
+      "Publisher": "Mantic Games",
+      "Designer": "Andy Chambers",
+      "Release date": "2023",
+      "Mechanics": [
+        "Dice Rolling",
+        "Team-based",
+        "Take That"
+      ],
+      "Categories": [
+        "Video Game Theme",
+        "Humor",
+        "Fighting"
+      ],
+      "Ratings": {
+        "reviews": [
+          {
+            "reviewerId": "r12",
+            "reviewer": "",
+            "scores": {
+              "Fun factor": null,
+              "Visual design": null,
+              "Component quality": null,
+              "Rulebook": null,
+              "Theme": null,
+              "Replay value": null,
+              "Length": null,
+              "Player interaction": null,
+              "Strategic value": null,
+              "Luck factor": null
+            }
+          }
+        ],
+        "Averages": {
+          "Fun factor": null,
+          "Visual design": null,
+          "Component quality": null,
+          "Rulebook": null,
+          "Theme": null,
+          "Replay value": null,
+          "Length": null,
+          "Player interaction": null,
+          "Strategic value": null,
+          "Luck factor": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BoardGamesDataset",
+  "type": "object",
+  "properties": {
+    "Games": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "gameId": { "type": "string"},
+          "Name": { "type": "string" },
+          "Type": { "type": "string" },
+          "Num of players": { "type": "string" },
+          "Estimated play time": { "type": "string" },
+          "Age": { "type": "string" },
+          "Publisher": { "type": "string" },
+          "Designer": { "type": "string" },
+          "Release date": { "type": "string" },
+          "Mechanics": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "Categories": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "Ratings": {
+            "type": "object",
+            "properties": {
+              "reviews": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "reviewerId": { "type": "string" },
+                    "reviewer": { "type": "string" },
+                    "scores": {
+                      "type": "object",
+                      "properties": {
+                        "Fun factor": { "type": ["number", "null"] },
+                        "Visual design": { "type": ["number", "null"] },
+                        "Component quality": { "type": ["number", "null"] },
+                        "Rulebook": { "type": ["number", "null"] },
+                        "Theme": { "type": ["number", "null"] },
+                        "Replay value": { "type": ["number", "null"] },
+                        "Length": { "type": ["number", "null"] },
+                        "Player interaction": { "type": ["number", "null"] },
+                        "Strategic value": { "type": ["number", "null"] },
+                        "Luck factor": { "type": ["number", "null"] }
+                      },
+                      "required": [
+                        "Fun factor",
+                        "Visual design",
+                        "Component quality",
+                        "Rulebook",
+                        "Theme",
+                        "Replay value",
+                        "Length",
+                        "Player interaction",
+                        "Strategic value",
+                        "Luck factor"
+                      ]
+                    }
+                  },
+                  "required": ["reviewerId", "reviewer", "scores"]
+                }
+              },
+              "Averages": {
+                "type": "object",
+                "properties": {
+                  "Fun factor": { "type": ["number", "null"] },
+                  "Visual design": { "type": ["number", "null"] },
+                  "Component quality": { "type": ["number", "null"] },
+                  "Rulebook": { "type": ["number", "null"] },
+                  "Theme": { "type": ["number", "null"] },
+                  "Replay value": { "type": ["number", "null"] },
+                  "Length": { "type": ["number", "null"] },
+                  "Player interaction": { "type": ["number", "null"] },
+                  "Strategic value": { "type": ["number", "null"] },
+                  "Luck factor": { "type": ["number", "null"] }
+                },
+                "required": [
+                  "Fun factor",
+                  "Visual design",
+                  "Component quality",
+                  "Rulebook",
+                  "Theme",
+                  "Replay value",
+                  "Length",
+                  "Player interaction",
+                  "Strategic value",
+                  "Luck factor"
+                ]
+              }
+            },
+            "required": ["reviews", "Averages"]
+          }
+        },
+        "required": [
+          "gameId",
+          "Name",
+          "Type",
+          "Num of players",
+          "Estimated play time",
+          "Age",
+          "Publisher",
+          "Designer",
+          "Release date",
+          "Mechanics",
+          "Categories",
+          "Ratings"
+        ]
+      }
+    }
+  },
+  "required": ["Games"]
+}
