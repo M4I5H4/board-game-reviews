@@ -8,11 +8,13 @@
       "items": {
         "type": "object",
         "properties": {
-          "gameId": { "type": "string"},
+          "gameId": { "type": "string" },
           "Name": { "type": "string" },
           "Type": { "type": "string" },
           "Num of players": { "type": "string" },
-          "Estimated play time": { "type": "string" },
+          "Estimated play time": {
+            "type": "string"
+          },
           "Age": { "type": "string" },
           "Publisher": { "type": "string" },
           "Designer": { "type": "string" },
@@ -33,21 +35,75 @@
                 "items": {
                   "type": "object",
                   "properties": {
-                    "reviewerId": { "type": "string" },
-                    "reviewer": { "type": "string" },
+                    "reviewId": {
+                      "type": "string"
+                    },
+                    "reviewer": {
+                      "type": "string"
+                    },
                     "scores": {
                       "type": "object",
                       "properties": {
-                        "Fun factor": { "type": ["number", "null"] },
-                        "Visual design": { "type": ["number", "null"] },
-                        "Component quality": { "type": ["number", "null"] },
-                        "Rulebook": { "type": ["number", "null"] },
-                        "Theme": { "type": ["number", "null"] },
-                        "Replay value": { "type": ["number", "null"] },
-                        "Length": { "type": ["number", "null"] },
-                        "Player interaction": { "type": ["number", "null"] },
-                        "Strategic value": { "type": ["number", "null"] },
-                        "Luck factor": { "type": ["number", "null"] }
+                        "Fun factor": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "Visual design": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "Component quality": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "Rulebook": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "Theme": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "Replay value": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "Length": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "Player interaction": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "Strategic value": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "Luck factor": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        }
                       },
                       "required": [
                         "Fun factor",
@@ -63,22 +119,46 @@
                       ]
                     }
                   },
-                  "required": ["reviewerId", "reviewer", "scores"]
+                  "required": [
+                    "reviewId",
+                    "reviewer",
+                    "scores"
+                  ]
                 }
               },
               "Averages": {
                 "type": "object",
                 "properties": {
-                  "Fun factor": { "type": ["number", "null"] },
-                  "Visual design": { "type": ["number", "null"] },
-                  "Component quality": { "type": ["number", "null"] },
-                  "Rulebook": { "type": ["number", "null"] },
-                  "Theme": { "type": ["number", "null"] },
-                  "Replay value": { "type": ["number", "null"] },
-                  "Length": { "type": ["number", "null"] },
-                  "Player interaction": { "type": ["number", "null"] },
-                  "Strategic value": { "type": ["number", "null"] },
-                  "Luck factor": { "type": ["number", "null"] }
+                  "Fun factor": {
+                    "type": ["number", "null"]
+                  },
+                  "Visual design": {
+                    "type": ["number", "null"]
+                  },
+                  "Component quality": {
+                    "type": ["number", "null"]
+                  },
+                  "Rulebook": {
+                    "type": ["number", "null"]
+                  },
+                  "Theme": {
+                    "type": ["number", "null"]
+                  },
+                  "Replay value": {
+                    "type": ["number", "null"]
+                  },
+                  "Length": {
+                    "type": ["number", "null"]
+                  },
+                  "Player interaction": {
+                    "type": ["number", "null"]
+                  },
+                  "Strategic value": {
+                    "type": ["number", "null"]
+                  },
+                  "Luck factor": {
+                    "type": ["number", "null"]
+                  }
                 },
                 "required": [
                   "Fun factor",

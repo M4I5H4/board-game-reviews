@@ -5,17 +5,27 @@ const fs = require('fs');
 const path = require('path');
 
 // Path to the dataset
-const datasetPath = path.join(__dirname, '../Dataset/boardGames.json');
+const datasetPath = path.join(
+  __dirname,
+  '../Dataset/boardGames.json'
+);
 
 // Helper function to load games dynamically
 const loadGames = () => {
-  const rawData = fs.readFileSync(datasetPath, 'utf-8');
+  const rawData = fs.readFileSync(
+    datasetPath,
+    'utf-8'
+  );
   return JSON.parse(rawData);
 };
 
 // Helper function to save games
 const saveGames = (games) => {
-  fs.writeFileSync(datasetPath, JSON.stringify(games, null, 2), 'utf-8');
+  fs.writeFileSync(
+    datasetPath,
+    JSON.stringify(games, null, 2),
+    'utf-8'
+  );
 };
 
 //-------------------------------GET------------------------------------
@@ -30,14 +40,16 @@ router.get('/', (req, res) => {
 router.get('/reviews', (req, res) => {
   const games = loadGames();
 
-  const reviewsData = games.Games.map(game => ({
+  const reviewsData = games.Games.map((game) => ({
     gameId: game.gameId,
     Name: game.Name,
-    Reviews: game.Ratings.reviews.map(review => ({
-      reviewerId: review.reviewerId,
-      reviewer: review.reviewer,
-      scores: review.scores
-    }))
+    Reviews: game.Ratings.reviews.map(
+      (review) => ({
+        reviewId: review.reviewId,
+        reviewer: review.reviewer,
+        scores: review.scores,
+      })
+    ),
   }));
 
   res.status(200).json(reviewsData);
@@ -48,29 +60,37 @@ router.get('/:gameId/reviews', (req, res) => {
   const games = loadGames();
   const { gameId } = req.params;
 
-  const game = games.Games.find(g => g.gameId === gameId);
+  const game = games.Games.find(
+    (g) => g.gameId === gameId
+  );
 
   if (!game) {
-    return res.status(404).json({ message: 'Game not found' });
+    return res
+      .status(404)
+      .json({ message: 'Game not found' });
   }
 
-  const reviewsData = game.Ratings.reviews.map(review => ({
-    reviewerId: review.reviewerId,
-    reviewer: review.reviewer,
-    scores: review.scores
-  }));
+  const reviewsData = game.Ratings.reviews.map(
+    (review) => ({
+      reviewId: review.reviewId,
+      reviewer: review.reviewer,
+      scores: review.scores,
+    })
+  );
 
   res.status(200).json({
     gameId: game.gameId,
     Name: game.Name,
-    Reviews: reviewsData
+    Reviews: reviewsData,
   });
 });
 
 // GET only the list of game names
 router.get('/names', (req, res) => {
   const games = loadGames();
-  const gameNames = games.Games.map(game => game.Name);
+  const gameNames = games.Games.map(
+    (game) => game.Name
+  );
   res.status(200).json(gameNames);
 });
 
@@ -80,35 +100,54 @@ router.get('/names', (req, res) => {
 router.post('/:gameId/reviews', (req, res) => {
   const games = loadGames();
   const { gameId } = req.params;
-  const { reviewerId, reviewer, scores } = req.body;
+  const { reviewId, reviewer, scores } = req.body;
 
   // Find the game
-  const game = games.Games.find(g => g.gameId === gameId);
+  const game = games.Games.find(
+    (g) => g.gameId === gameId
+  );
   if (!game) {
-    return res.status(404).json({ message: "Game not found" });
+    return res
+      .status(404)
+      .json({ message: 'Game not found' });
   }
 
   // Validate required fields
-  if (!reviewerId || !reviewer || !scores) {
-    return res.status(400).json({ message: "Missing reviewerId, reviewer, or scores" });
+  if (!reviewId || !reviewer || !scores) {
+    return res
+      .status(400)
+      .json({
+        message:
+          'Missing reviewId, reviewer, or scores',
+      });
   }
 
   // Add the new review
-  game.Ratings.reviews.push({ reviewerId, reviewer, scores });
+  game.Ratings.reviews.push({
+    reviewId,
+    reviewer,
+    scores,
+  });
 
   // Recalculate averages
-  const allScores = game.Ratings.reviews.map(r => r.scores);
+  const allScores = game.Ratings.reviews.map(
+    (r) => r.scores
+  );
   const categories = Object.keys(scores);
 
   const averages = {};
-  categories.forEach(category => {
+  categories.forEach((category) => {
     const values = allScores
-      .map(s => s[category])
-      .filter(v => v !== null && v !== undefined);
+      .map((s) => s[category])
+      .filter(
+        (v) => v !== null && v !== undefined
+      );
 
-    averages[category] = values.length > 0
-      ? values.reduce((a, b) => a + b, 0) / values.length
-      : null;
+    averages[category] =
+      values.length > 0
+        ? values.reduce((a, b) => a + b, 0) /
+          values.length
+        : null;
   });
 
   // Update averages in dataset
@@ -118,12 +157,11 @@ router.post('/:gameId/reviews', (req, res) => {
   saveGames(games);
 
   res.status(201).json({
-    message: "Review added successfully",
+    message: 'Review added successfully',
     gameId: game.gameId,
-    newReview: { reviewerId, reviewer, scores },
-    updatedAverages: averages
+    newReview: { reviewId, reviewer, scores },
+    updatedAverages: averages,
   });
 });
 
 module.exports = router;
-
